@@ -1,0 +1,12 @@
+body {
+    background-color: #85aaef;
+    font-family: "Trirong", serif;
+    font-size: 20px;
+    color: #1e022c;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
