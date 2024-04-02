@@ -21,6 +21,8 @@ body {
     text-align: auto;
     border-radius: 15%;
     display: inline-block;
+    border-width: 5px;
+    border-color: white;
  }
  .no-button {
    background-color:grey;
