@@ -32,3 +32,8 @@ body {
    position: absolute;
    border-radius: 15%;
  }
+
+ .index_Text {
+   padding: 14px 28px;
+   font-size: 20px;
+ }
