@@ -10,7 +10,13 @@
   <body>
     <h1>Polar Parking</h1>
     <a href="logfind.html">
-      <button class="button">Select a Spot</button>
+      <button onclick = "spot(1)" class="button">Choose Spot 1</button>
+      <button onclick = "spot(2)" class="button">Choose Spot 2</button>
   </a>
+    <script>
+      function spot(spot) {
+          localStorage.setItem("Spot", spot)
+      }
+    </script>
   </body>
 </html>
