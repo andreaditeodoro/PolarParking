@@ -8,9 +8,12 @@
     <link rel="icon" type="image/x-icon" href="images/favicon copy.ico">
   </head>
   <body>
-    <h1>You have successfully logged [Spot number]</h1>
+    <h1>You have successfully logged Spot</h1> <p id='spot'></p>
     <a href="index.html">
-      <button>Back to homepage</button>
+      <button class="button">Back to homepage</button>
   </a>
+  <script>
+    document.getElementById('spot').innerHTML = localStorage.getItem('Spot');
+  </script>
   </body>
 </html>
