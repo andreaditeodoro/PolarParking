@@ -13,7 +13,7 @@ body {
  }
 
  .button {
-    background-color:navy;
+    background-color:rgba(0, 0, 128, 0.733);
     color:white;
     padding: 14px 28px;
     font-size: 16px;
@@ -23,6 +23,7 @@ body {
     display: inline-block;
     border-width: 5px;
     border-color: white;
+    font-family: "Trirong", serif;
  }
  .no-button {
    background-color:grey;
@@ -33,9 +34,25 @@ body {
    cursor: pointer;
    text-align: center;
    border-radius: 15%;
+   font-family: "Trirong", serif;
  }
 
  .index_Text {
    padding: 14px 28px;
    font-size: 20px;
+   font-family: "Trirong", serif;
+ }
+
+ .parking-spot-button {
+  background-color:aquamarine;
+  color: black;
+  padding: 20px 20px;
+  font-size: 24px;
+  text-align: auto;
+  cursor: pointer;
+  border-radius: 15%;
+  border-width: 5px;
+  border-color: grey;
+  font-family: "Trirong", serif;
+
  }
