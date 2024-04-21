@@ -84,3 +84,7 @@ body {
  .help{
   padding: 20px;
  }
+
+ .title{
+  text-align: left;
+ }
