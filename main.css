@@ -58,13 +58,13 @@ body {
  }
 
  .topnav {
-  background-color: navy;
+  background-color: lightsteelblue;
   text-align: right;
   overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
-  color: white;
+  color: navy;
   padding: 15px;
   margin: 15px;
  }
