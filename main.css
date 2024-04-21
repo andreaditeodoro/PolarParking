@@ -57,13 +57,10 @@ body {
  }
 
  .topnav {
-  text-align: start;
   background-color: navy;
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
   color: white;
- }
-
- .photo {
-  height: 1;
-  width: 1;
  }
