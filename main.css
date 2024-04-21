@@ -54,5 +54,10 @@ body {
   border-width: 5px;
   border-color: grey;
   font-family: "Trirong", serif;
+ }
 
+ .topnav {
+  background-color: navy;
+  overflow: hidden;
+  color: white;
  }
