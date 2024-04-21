@@ -57,7 +57,13 @@ body {
  }
 
  .topnav {
+  text-align: start;
   background-color: navy;
   overflow: hidden;
   color: white;
+ }
+
+ .photo{
+  height: 20;
+  width: 20;
  }
