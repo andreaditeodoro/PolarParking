@@ -70,9 +70,9 @@ body {
  }
 
  .row{
-  color: navy;
+  color: #000080;
   text-align: left;
-  width: 100 px;
+  width: 50 px;
  }
 
  .active{
