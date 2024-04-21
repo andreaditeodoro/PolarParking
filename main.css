@@ -11,7 +11,11 @@ body {
     align-items: center;
     height: 100vh;
     position: fixed;
-    top: 10;
+ }
+
+ .title{
+  position: fixed;
+  top: 0;
  }
 
  .button {
