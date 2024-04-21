@@ -15,7 +15,8 @@ body {
 
  .title{
   position: fixed;
-  top: 15;
+  top: 10;
+  text-align: left;
  }
 
  .button {
