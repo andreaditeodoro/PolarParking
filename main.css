@@ -1,5 +1,6 @@
 body {
     background-color: #85aaef;
+    text-align: left;
     font-family: "Trirong", serif;
     font-size: 20px;
     color: #1e022c;
@@ -63,4 +64,5 @@ body {
   top: 0;
   width: 100%;
   color: white;
+  padding: 15px;
  }
