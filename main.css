@@ -20,8 +20,8 @@ body {
 
  .logo{
   position: fixed;
-  top: 45px;
-  left: 350px
+  top: 60px;
+  left: 500px
  }
 
  .button {
@@ -74,10 +74,10 @@ body {
   overflow: hidden;
   position: fixed;
   top: 0;
-  width: 50%;
+  width: 100%;
   color: navy;
   padding: 15px;
-  margin: 15px;
+  margin: 0;
  }
 
  .row{
