@@ -18,6 +18,12 @@ body {
   left: 8px
  }
 
+ .logo{
+  position: fixed;
+  top: 35px;
+  left: 18px
+ }
+
  .button {
     background-color:rgba(0, 0, 128, 0.733);
     color:white;
