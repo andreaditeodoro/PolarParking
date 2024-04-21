@@ -64,8 +64,22 @@ body {
   top: 0;
   width: 100%;
   color: white;
-  padding: 15px 16px;
+  padding: 15px;
   margin: 15px;
-  float: left;
-  display: block;
+ }
+
+ .active{
+  padding: 10px;
+ }
+
+ .settings{
+  padding: 10px;
+ }
+
+ .report{
+  padding: 10px;
+ }
+
+ .help{
+  padding: 10px;
  }
