@@ -5,7 +5,7 @@ body {
     font-size: 20px;
     color: #1e022c;
     margin: 10 px;
-    padding: 0;
+    padding: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +72,7 @@ body {
  .row{
   color: #000080;
   text-align: left;
-  padding: 80px;
+  padding: 50px;
  }
 
  .active{
