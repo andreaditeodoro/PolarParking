@@ -71,6 +71,8 @@ body {
 
  .row{
   color: navy;
+  text-align: left;
+  width: 100 px;
  }
 
  .active{
