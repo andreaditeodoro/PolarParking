@@ -20,15 +20,24 @@
   </a>
     <script>
 
-      const occupied = [];
-      localStorage.setItem("Occupied", occupied)
-
       function spot(spot) {
           if (!occupied.includes(spot)) {
-            localStorage.setItem("Spot", spot)
-            occupied.push(spot)
+            occupied.push(spot);
+            localStorage.setItem("Spot", spot);
           }
-          localStorage.setItem("R")
+          else {
+            localStorage.setItem("Spot", "Spot already occupied")
+          }
+      }
+
+      function unlog(spot) {
+        if (!occupied.includes(spot)) {
+          localStorage.setItem("Spot", "Spot is already empty")
+        }
+        else {
+          const index = occupied.indexOf(spot);
+          occupied.splice(index, 1)
+        }
       }
     </script>
   </body>
