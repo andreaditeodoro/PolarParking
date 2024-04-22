@@ -13,11 +13,13 @@ body {
  }
 
  .title {
+  position: fixed;
   top: 35px;
   left: 8px;
  }
 
  .logo {
+  position: fixed;
   top: 55px;
   left: 475px;
 }
