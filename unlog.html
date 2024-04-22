@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Polar Parking Log</title>
-
     <link rel="stylesheet" href="main.css">
     <link rel="icon" type="image/x-icon" href="images/favicon copy.ico">
+    <script type="text/javascript" src="java-code.js"></script>
   </head>
   <body>
     <label for="parking lots"> Choose a parking spot:</label>
@@ -18,14 +18,5 @@
       <p\> <button onclick = "unlog(1)" class="parking-spot-button">Unlog Spot 1</button> </p>
       <p\> <button onclick = "unlog(2)" class="parking-spot-button">Unlog Spot 2</button> </p>
   </a>
-    <script>
-      function unlog(spot) {
-        if (!occupied.includes(spot)) {
-          localStorage.setItem("Spot", "Spot is already empty")
-        }
-        const index = occupied.indexOf(spot);
-        occupied.splice(index, 1)
-      }
-    </script>
   </body>
 </html>

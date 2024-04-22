@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" href="main.css">
     <link rel="icon" type="image/x-icon" href="images/favicon copy.ico">
+    <script type="text/javascript" src="java-code.js"></script>
   </head>
   <body>
     <label for="parking lots"> Choose a parking spot:</label>
@@ -18,29 +19,5 @@
       <p\> <button onclick = "spot(1)" class="parking-spot-button">Choose Spot 1</button> </p>
       <p\> <button onclick = "spot(2)" class="parking-spot-button">Choose Spot 2</button> </p>
   </a>
-    <script>
-
-      const occupied = [];
-
-      function spot(spot) {
-          if (!occupied.includes(spot)) {
-            occupied.push(spot);
-            localStorage.setItem("Spot", spot);
-          }
-          else {
-            localStorage.setItem("Spot", "Spot already occupied")
-          }
-      }
-
-      function unlog(spot) {
-        if (!occupied.includes(spot)) {
-          localStorage.setItem("Spot", "Spot is already empty")
-        }
-        else {
-          const index = occupied.indexOf(spot);
-          occupied.splice(index, 1)
-        }
-      }
-    </script>
   </body>
 </html>
