@@ -14,8 +14,16 @@
       <p\> <button onclick = "spot(2)" class="parking-spot-button">Choose Spot 2</button> </p>
   </a>
     <script>
+
+      const occupied = [];
+      localStorage.setItem("Occupied", occupied)
+
       function spot(spot) {
-          localStorage.setItem("Spot", spot)
+          if (!occupied.includes(spot)) {
+            localStorage.setItem("Spot", spot)
+            occupied.push(spot)
+          }
+          localStorage.setItem("R")
       }
     </script>
   </body>
