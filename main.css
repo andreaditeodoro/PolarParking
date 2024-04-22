@@ -86,6 +86,10 @@ body {
   padding: 50px;
  }
 
+ .leftcol{
+  text-align: left;
+ }
+
  .active{
   padding: 20px;
  }
