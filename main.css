@@ -12,18 +12,18 @@ body {
     height: 100vh;
  }
 
- .title{
+ .title {
   position: fixed;
   top: 35px;
   left: 8px;
-  background-attachment: scroll;
+  attachment: scroll;
  }
 
- .logo{
+ .logo {
   position: fixed;
   top: 55px;
   left: 475px;
-  background-attachment: scroll;
+  attachment: scroll;
  }
 
  .button {
