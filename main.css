@@ -83,11 +83,12 @@ body {
  .rightcol{
   color: #000080;
   text-align: left;
-  padding: 50px;
+  padding: 70px;
  }
 
  .leftcol{
   text-align: left;
+  padding: 70px;
  }
 
  .active{
