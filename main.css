@@ -1,16 +1,28 @@
 body {
-    background-color: #85aaef;
+    background-color: lightsteelblue;
+    text-align: left;
     font-family: "Trirong", serif;
     font-size: 20px;
-    color: #1e022c;
-    margin: 0;
-    padding: 0;
+    color: navy;
+    margin: 10 px;
+    padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    text-align: center;
  }
+
+ .title {
+  position: fixed;
+  top: 35px;
+  left: 8px;
+ }
+
+ .logo {
+  position: fixed;
+  top: 55px;
+  left: 475px;
+}
 
  .button {
     background-color:rgba(0, 0, 128, 0.733);
@@ -18,7 +30,7 @@ body {
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
-    text-align: auto;
+    text-align: left;
     border-radius: 15%;
     display: inline-block;
     border-width: 5px;
@@ -54,5 +66,49 @@ body {
   border-width: 5px;
   border-color: grey;
   font-family: "Trirong", serif;
+ }
 
+ .topnav {
+  background-color: lightsteelblue;
+  text-align: right;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: navy;
+  padding: 15px;
+  margin: 10px;
+ }
+
+ .rightcol{
+  color: #000080;
+  text-align: left;
+  padding: 40px;
+  font-size: 15px;
+ }
+
+ .leftcol{
+  text-align: left;
+  padding: 40px;
+  margin: 5px;
+ }
+
+ .active{
+  padding: 20px;
+ }
+
+ .settings{
+  padding: 20px;
+ }
+
+ .report{
+  padding: 20px;
+ }
+
+ .help{
+  padding: 20px;
+ }
+
+ .title{
+  text-align: left;
  }
