@@ -16,12 +16,14 @@ body {
   position: fixed;
   top: 35px;
   left: 8px;
+  background-color: lightsteelblue;
  }
 
  .logo {
   position: fixed;
   top: 55px;
   left: 475px;
+  background-color: lightsteelblue;
 }
 
  .button {
@@ -90,7 +92,7 @@ body {
  .leftcol{
   text-align: left;
   padding: 40px;
-  margin: 5px;
+  margin: 15px;
  }
 
  .active{
