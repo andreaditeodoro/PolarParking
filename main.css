@@ -58,9 +58,9 @@ body {
  .parking-spot-button {
   background-color:aquamarine;
   color: black;
-  padding: 20px 20px;
+  padding: 40px 20px;
   font-size: 24px;
-  text-align: auto;
+  text-align: center;
   cursor: pointer;
   border-radius: 15%;
   border-width: 5px;
@@ -112,3 +112,18 @@ body {
  .title{
   text-align: left;
  }
+
+ .mapImages {
+  text-align: left;
+ }
+
+ .parkingSpotColumn {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+.parkingSpotRow {
+  content: "";
+  clear: both;
+  display: table;
+}

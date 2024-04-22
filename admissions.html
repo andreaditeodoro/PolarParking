@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Polar Parking Log</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon copy.ico">
+  </head>
+  <body>
+    <div class="title">
+        <h1>Admissions Building Parking</h1>
+    </div>
+    <div class="logo">
+        <img src="https://pngimg.com/uploads/polar_bear/polar_bear_PNG14.png" alt="A picture of a Polar Bear"
+      width="80"
+      height="80">
+    <div class="parkingSpotRow">
+        <div class="parkingSpotColumn">
+            <a href="logfind.html">
+                <p\> <button onclick = "spot(1)" class="parking-spot-button">Choose Spot 1</button> </p>
+                <p\> <button onclick = "spot(3)" class="parking-spot-button">Choose Spot 3</button> </p>
+                <p\> <button onclick = "spot(5)" class="parking-spot-button">Choose Spot 5</button> </p>
+              </a>
+        </div>
+        <div class="parkingSpotColumn">
+            <a href="logfind.html">
+                <p\> <button onclick = "spot(2)" class="parking-spot-button">Choose Spot 2</button> </p>
+                <p\> <button onclick = "spot(4)" class="parking-spot-button">Choose Spot 4</button> </p>
+                <p\> <button onclick = "spot(6)" class="parking-spot-button">Choose Spot 6</button> </p>
+              </a>
+        </div>
+        <div class="parkingSpotColumn">
+            <img src="admissions_map-min.png" alt="Farley Parking Map" width="500"
+            height="500">
+        </div>
+    </div>
+    <script>
+      function spot(spot) {
+          localStorage.setItem("Spot", spot)
+      }
+    </script>
+  </body>
+</html>
