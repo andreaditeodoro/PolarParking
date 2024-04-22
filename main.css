@@ -16,15 +16,13 @@ body {
   position: fixed;
   top: 35px;
   left: 8px;
-  attachment: scroll;
  }
 
  .logo {
   position: fixed;
   top: 55px;
   left: 475px;
-  attachment: scroll;
- }
+}
 
  .button {
     background-color:rgba(0, 0, 128, 0.733);
@@ -92,6 +90,7 @@ body {
  .leftcol{
   text-align: left;
   padding: 40px;
+  margin: 5px;
  }
 
  .active{
