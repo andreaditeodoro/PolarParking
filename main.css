@@ -68,9 +68,21 @@ body {
   font-family: "Trirong", serif;
  }
 
- .topnav {
+ .topnavright {
   background-color: lightsteelblue;
   text-align: right;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: navy;
+  padding: 15px;
+  margin: 10px;
+ }
+
+ .topnavleft {
+  background-color: lightsteelblue;
+  text-align: left;
   overflow: hidden;
   position: fixed;
   top: 0;
