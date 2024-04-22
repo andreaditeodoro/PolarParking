@@ -26,7 +26,7 @@ body {
 
 .logoOnLogPages {
   position: right;
-}
+ }
 
  .button {
     background-color:rgba(0, 0, 128, 0.733);
@@ -57,77 +57,78 @@ body {
    padding: 14px 28px;
    font-size: 20px;
    font-family: "Trirong", serif;
+  }
+ 
+  .parking-spot-button {
+   background-color:aquamarine;
+   color: black;
+   padding: 40px 20px;
+   font-size: 24px;
+   text-align: center;
+   cursor: pointer;
+   border-radius: 15%;
+   border-width: 5px;
+   border-color: grey;
+   font-family: "Trirong", serif;
+  }
+ 
+  .topnav {
+   background-color: lightsteelblue;
+   text-align: right;
+   overflow: hidden;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   color: navy;
+   padding: 15px;
+   margin: 10px;
+  }
+ 
+  .rightcol{
+   color: #000080;
+   text-align: left;
+   padding: 40px;
+   font-size: 15px;
+  }
+ 
+  .leftcol{
+   text-align: left;
+   padding: 40px;
+   margin: 5px;
+  }
+ 
+  .active{
+   padding: 20px;
+  }
+ 
+  .settings{
+   padding: 20px;
+  }
+ 
+  .report{
+   padding: 20px;
+  }
+ 
+  .help{
+   padding: 20px;
+  }
+ 
+  .title{
+   text-align: left;
+  }
+ 
+  .mapImages {
+   text-align: left;
+  }
+ 
+  .parkingSpotColumn {
+   float: left;
+   width: 20%;
+   padding: 5px;
  }
-
- .parking-spot-button {
-  background-color:aquamarine;
-  color: black;
-  padding: 40px 20px;
-  font-size: 24px;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 15%;
-  border-width: 5px;
-  border-color: grey;
-  font-family: "Trirong", serif;
+ .parkingSpotRow {
+   content: "";
+   clear: both;
+   display: table;
  }
-
- .topnav {
-  background-color: lightsteelblue;
-  text-align: right;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  color: navy;
-  padding: 15px;
-  margin: 10px;
- }
-
- .rightcol{
-  color: #000080;
-  text-align: left;
-  padding: 40px;
-  font-size: 15px;
- }
-
- .leftcol{
-  text-align: left;
-  padding: 40px;
-  margin: 5px;
- }
-
- .active{
-  padding: 20px;
- }
-
- .settings{
-  padding: 20px;
- }
-
- .report{
-  padding: 20px;
- }
-
- .help{
-  padding: 20px;
- }
-
- .title{
-  text-align: left;
- }
-
- .mapImages {
-  text-align: left;
- }
-
- .parkingSpotColumn {
-  float: left;
-  width: 20%;
-  padding: 5px;
-}
-.parkingSpotRow {
-  content: "";
-  clear: both;
-  display: table;
-}
+ 
