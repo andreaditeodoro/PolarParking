@@ -16,14 +16,14 @@ body {
   position: fixed;
   top: 35px;
   left: 8px;
-  background-attachment: fixed;
+  background-attachment: scroll;
  }
 
  .logo{
   position: fixed;
   top: 55px;
   left: 475px;
-  background-attachment: fixed;
+  background-attachment: scroll;
  }
 
  .button {
@@ -86,7 +86,7 @@ body {
   color: #000080;
   text-align: left;
   padding: 40px;
-  font-size: 10px;
+  font-size: 15px;
  }
 
  .leftcol{
