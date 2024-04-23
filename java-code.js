@@ -1,4 +1,4 @@
-const occupied = [];
+const occupied = JSON.parse(localStorage.getItem('occupied')) || [];
 
 function spot(spot) {
     if (occupied.includes(spot)) {
@@ -8,6 +8,7 @@ function spot(spot) {
         occupied.push(spot)
         localStorage.setItem("Spot", spot)
     }
+    localStorage.setItem('occupied', JSON.stringify(occupied));
 }
 
 function unlog(spot) {
@@ -17,5 +18,6 @@ function unlog(spot) {
     else {
       const index = occupied.indexOf(spot);
       occupied.splice(index, 1)
+      localStorage.setItem('occupied', JSON.stringify(occupied))
     }
 }
