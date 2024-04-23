@@ -81,7 +81,8 @@ body {
    width: 100%;
    color: navy;
    padding-bottom: 15px;
-   margin: 10px;
+   margin-top: 0px;
+   margin-bottom: 15px;
   }
  
   .rightcol{
