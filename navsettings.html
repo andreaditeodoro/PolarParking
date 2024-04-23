@@ -10,17 +10,31 @@
   <body>
     <div id="settings-title">
       <h1>Settings</h1>
-  </div>
+    </div>
   <div id="settings-container">
-      <button class="setting-option" onclick="location.href='profile_settings.html'">
-          <p>Profile</p>
-      </button>
-      <button class="setting-option" onclick="location.href='privacy_settings.html'">
-          <p>Preferences</p>
-      </button>
-      <button class="setting-option" onclick="location.href='notification_settings.html'">
-          <p>Notifications</p>
-      </button>
+      <div>
+          <label class="settings-labels">Profile</label>
+          <select name="profile" class="setting-dropdown-menu">
+            <option value="student"> Student </option>
+            <option value="faculty"> Faculty </option>
+            <option value="visitor"> Visitor </option>
+          </select>
+      </div>
+      <div>
+          <label for="notifications">Notification Preferences</label>
+          <select name="notification" class="setting-dropdown-menu">
+            <option value="on"> On </option>
+            <option value="off"> Off </option>
+          </select>
+      </div>
+      <div>
+          <label for="preferences">Parking Preferences</label>
+          <select name="profile" class="setting-dropdown-menu">
+            <option value="Farley"> Farley Field House Lot </option>
+            <option value="Coffin"> Coffin Street Parking Lot </option>
+            <option value="admissions"> Admissions Building Parking Lot </option>
+          </select>
+      </div>    
   </div>
   <nav class="topnav">
     <div class="navtitle">
