@@ -12,28 +12,34 @@
       <h1>Settings</h1>
     </div>
   <div id="settings-container">
-      <div>
-          <label class="settings-labels">Profile</label>
+      <div class="settings-labels">
+          <label>Profile</label>
+          <div class="setting-dropdown-menu">
           <select name="profile" class="setting-dropdown-menu">
             <option value="student"> Student </option>
             <option value="faculty"> Faculty </option>
             <option value="visitor"> Visitor </option>
           </select>
+        </div>
       </div>
-      <div>
-          <label for="notifications">Notification Preferences</label>
+      <div class="settings-labels">
+        <label>Notification Preferences</label>
+          <div class="setting-dropdown-menu">
           <select name="notification" class="setting-dropdown-menu">
             <option value="on"> On </option>
             <option value="off"> Off </option>
           </select>
+        </div>
       </div>
-      <div>
-          <label for="preferences">Parking Preferences</label>
-          <select name="profile" class="setting-dropdown-menu">
+      <div class="settings-labels">
+        <label>Parking Preferences</label>
+          <div class="setting-dropdown-menu">
+          <select name="preferences" class="setting-dropdown-menu">
             <option value="Farley"> Farley Field House Lot </option>
             <option value="Coffin"> Coffin Street Parking Lot </option>
             <option value="admissions"> Admissions Building Parking Lot </option>
           </select>
+        </div>
       </div>    
   </div>
   <nav class="topnav">
