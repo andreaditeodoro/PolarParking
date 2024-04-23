@@ -60,7 +60,7 @@ body {
   }
  
   .parking-spot-button {
-   background-color:lightsteelblue;
+   background-color:rgba(0, 0, 128, 0.733);
    color: white;
    padding: 40px 20px;
    font-size: 24px;
