@@ -26,6 +26,10 @@ body {
     height: 100vh;
  }
 
+ .centeralign {
+  text-align: center;
+ }
+
  .title {
   position: fixed;
   background-color: aliceblue;
@@ -122,7 +126,7 @@ body {
    width: 100%;
    color: white;
    margin-top: 0px;
-   margin-bottom: 15px;
+   margin-bottom: 40px;
   }
 
   .navtitle {
@@ -145,7 +149,8 @@ body {
   .rightcol{
    color: #000080;
    text-align: left;
-   padding: 40px;
+   padding-top: 40px;
+   margin-top: 40px;
    font-size: 15px;
   }
  
@@ -153,6 +158,8 @@ body {
    text-align: left;
    padding: 40px;
    margin: 5px;
+   margin-top: 40px;
+   font-size: 15px;
   }
  
   .active{
@@ -211,10 +218,10 @@ body {
   padding: 20px;
   font-size: 24px;
 }
-#settings-container {
+.settings-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: right;
   justify-content: center;
   height: 100vh;
 }
@@ -234,4 +241,8 @@ body {
 }
 .setting-option i {
   margin-right: 10px;
+}
+.centeralign{
+  margin-top: 30px;
+  padding-top: 50px;
 }
