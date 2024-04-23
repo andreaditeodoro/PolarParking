@@ -1,7 +1,13 @@
 const occupied = [];
 
 function spot(spot) {
-    localStorage.setItem("Spot", spot)
+    if (occupied.includes(spot)) {
+        localStorage.setItem("Spot", "Spot is occupied")
+    }
+    else {
+        occupied.push(spot)
+        localStorage.setItem("Spot", spot)
+    }
 }
 
 function unlog(spot) {
