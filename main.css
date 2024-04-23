@@ -26,6 +26,10 @@ body {
     height: 100vh;
  }
 
+ .centeralign {
+  text-align: center;
+ }
+
  .title {
   position: fixed;
   background-color: aliceblue;
@@ -122,7 +126,7 @@ body {
    width: 100%;
    color: white;
    margin-top: 0px;
-   margin-bottom: 15px;
+   margin-bottom: 40px;
   }
 
   .navtitle {
@@ -145,7 +149,8 @@ body {
   .rightcol{
    color: #000080;
    text-align: left;
-   padding: 40px;
+   padding-top: 40px;
+   margin-top: 40px;
    font-size: 15px;
   }
  
@@ -153,6 +158,8 @@ body {
    text-align: left;
    padding: 40px;
    margin: 5px;
+   margin-top: 40px;
+   font-size: 15px;
   }
  
   .active{
@@ -211,13 +218,12 @@ body {
   padding: 20px;
   font-size: 24px;
 }
-.settings-container {
+#settings-container {
   display: flex;
   flex-direction: column;
-  align-items: right;
+  align-items: center;
   justify-content: center;
   height: 100vh;
-  line-height: 0.8;
 }
 .setting-option {
   margin: 10px;
@@ -236,15 +242,7 @@ body {
 .setting-option i {
   margin-right: 10px;
 }
-
-.setting-dropdown-menu{
-  background-color: white;
-  font-size: 20px;
-  border:#000080;
-  color: rgba(0, 0, 128, 0.733);
-}
-
-.setting-labels {
-  font-size: 50px;
-  color: pink(0, 0, 128, 0.733);
+.centeralign{
+  margin-top: 30px;
+  padding-top: 50px;
 }
