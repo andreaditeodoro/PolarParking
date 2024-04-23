@@ -34,7 +34,7 @@ body {
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
-    text-align: left;
+    text-align: center;
     border-radius: 15%;
     display: inline-block;
     border-width: 5px;
@@ -60,8 +60,8 @@ body {
   }
  
   .parking-spot-button {
-   background-color:aquamarine;
-   color: black;
+   background-color:lightsteelblue;
+   color: white;
    padding: 40px 20px;
    font-size: 24px;
    text-align: center;
@@ -71,6 +71,19 @@ body {
    border-color: grey;
    font-family: "Trirong", serif;
   }
+
+  .parking-spot-button:hover {
+    background-color:grey;
+    color: white;
+    padding: 40px 20px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15%;
+    border-width: 5px;
+    border-color: grey;
+    font-family: "Trirong", serif;
+   }
  
   .topnav {
    background-color: lightsteelblue;
