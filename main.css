@@ -241,6 +241,16 @@ body {
 .setting-option i {
   margin-right: 10px;
 }
+
+.reportbutton {
+  margin: 20px;
+  padding: 10px;
+}
+
+.reportpage {
+  text-align: left;
+  margin-top: 20px;
+}
 .centeralign{
   margin-top: 30px;
   padding-top: 50px;
