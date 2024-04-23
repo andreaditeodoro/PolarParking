@@ -100,20 +100,6 @@ body {
     border-color: grey;
     font-family: "Trirong", serif;
    }
-
-   .topheader {
-    background-color: navy;
-    text-align: left;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    color: white;
-    padding-bottom: 15px;
-    padding-top: 50px;
-    margin-top: 0px;
-    margin-bottom: 15px;
-   }
  
   .topnav {
    background-color: navy;
