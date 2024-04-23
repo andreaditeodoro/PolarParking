@@ -34,10 +34,8 @@ body {
  }
 
  .logo {
-  position: fixed;
   top: 55px;
   left: 475px;
-  background-color: aliceblue;
 }
 
 .logoOnLogPages {
