@@ -211,12 +211,13 @@ body {
   padding: 20px;
   font-size: 24px;
 }
-#settings-container {
+.settings-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: right;
   justify-content: center;
   height: 100vh;
+  line-height: 0.8;
 }
 .setting-option {
   margin: 10px;
@@ -234,4 +235,16 @@ body {
 }
 .setting-option i {
   margin-right: 10px;
+}
+
+.setting-dropdown-menu{
+  background-color: white;
+  font-size: 20px;
+  border:#000080;
+  color: rgba(0, 0, 128, 0.733);
+}
+
+.setting-labels {
+  font-size: 50px;
+  color: pink(0, 0, 128, 0.733);
 }
