@@ -12,8 +12,13 @@ body {
     height: 100vh;
  }
 
+ .top {
+  background-color: aliceblue;
+ }
+
  .title {
   position: fixed;
+  background-color: aliceblue;
   top: 35px;
   left: 8px;
  }
@@ -22,6 +27,7 @@ body {
   position: fixed;
   top: 55px;
   left: 475px;
+  background-color: aliceblue;
 }
 
 .logoOnLogPages {
@@ -83,6 +89,20 @@ body {
     border-width: 5px;
     border-color: grey;
     font-family: "Trirong", serif;
+   }
+
+   .topheader {
+    background-color: navy;
+    text-align: left;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
    }
  
   .topnav {
