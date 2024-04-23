@@ -8,13 +8,15 @@
     <link rel="icon" type="image/x-icon" href="images/favicon copy.ico">
   </head>
   <body>
-    <p\><h1>You have successfully logged Spot</h1> <p  id='spot'></p></p>
+    <div class="centerAlignedBody">
+    <p\><h1>You have successfully logged spot <p style= "font-size: xx-large;" id='spot'></p> </h1></p>
     <a href="index.html">
       <p\> <button class="button">Back to homepage</button> </p>
   </a>
   <script>
     document.getElementById('spot').innerHTML = localStorage.getItem('Spot');
   </script>
+  </div>
   <nav class="topnav">
     <a class="active" href="index.html">Home</a>
     <a class="settings">Settings</a>
