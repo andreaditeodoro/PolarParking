@@ -73,7 +73,7 @@ body {
   }
  
   .topnav {
-   background-color: lightsteelblue;
+   background-color: rgb(149, 179, 218);
    text-align: right;
    overflow: hidden;
    position: fixed;
