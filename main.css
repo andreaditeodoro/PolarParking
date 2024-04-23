@@ -32,7 +32,6 @@ body {
 
  .title {
   position: fixed;
-  background-color: aliceblue;
   top: 35px;
   left: 8px;
  }
@@ -255,4 +254,20 @@ body {
 .centeralign{
   margin-top: 30px;
   padding-top: 50px;
+}
+
+.setting-dropdown-menu {
+  color: rgba(0, 0, 128, 0.733);
+  font-size: 24px;
+  padding: auto;
+  text-align: left;
+  border-color: rgba(0, 0, 128, 0.733);
+  border-width: 2px;
+}
+
+.settings-labels {
+  color: rgba(0, 0, 128, 0.733);
+  font-size: 40px;
+  padding: auto;
+  text-align: left;
 }
