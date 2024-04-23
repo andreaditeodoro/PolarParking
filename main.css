@@ -116,16 +116,30 @@ body {
  
   .topnav {
    background-color: navy;
-   text-align: right;
    overflow: hidden;
    position: fixed;
    top: 0;
    width: 100%;
    color: white;
-   padding-bottom: 15px;
-   padding-top: 15px;
    margin-top: 0px;
    margin-bottom: 15px;
+  }
+
+  .navtitle {
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: inline-block;
+  }
+
+  .navlinks {
+    text-align: right;
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: inline-block;
   }
  
   .rightcol{
@@ -188,6 +202,8 @@ body {
 
  .report-container {
   display: none;
+  margin: 10px;
+  padding: 10px;
 }
 
 #settings-title {
