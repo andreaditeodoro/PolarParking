@@ -177,4 +177,16 @@ body {
    clear: both;
    display: table;
  }
+
+ .pagetitle {
+  color: #000080;
+  text-align: left;
+  margin: 5px;
+  padding: 5px;
+  width: 20%;
+ }
+
+ .report-container {
+  display: none;
+}
  
