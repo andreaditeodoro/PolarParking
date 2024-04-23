@@ -55,6 +55,21 @@ body {
     border-color: white;
     font-family: "Trirong", serif;
  }
+
+ .button:hover {
+  background-color:grey;
+  color:white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 15%;
+  display: inline-block;
+  border-width: 5px;
+  border-color: white;
+  font-family: "Trirong", serif;
+}
+
  .no-button {
    background-color:grey;
    color:black;
