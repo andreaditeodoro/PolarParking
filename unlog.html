@@ -8,11 +8,26 @@
     <script type="text/javascript" src="java-code.js"></script>
   </head>
   <body>
-    <label for="parking lots"> Choose a parking spot:</label>
-    <p id="occupied"></p>
-    <a href="index.html">
-      <p\> <button onclick = "unlog(1)" class="parking-spot-button">Unlog Spot 1</button> </p>
-      <p\> <button onclick = "unlog(2)" class="parking-spot-button">Unlog Spot 2</button> </p>
-  </a>
+    <label for="parking lots"> Unlog a parking spot:</label>
+    <div class="parkingSpotRow">
+      <div class="parkingSpotColumn">
+          <a href="index.html">
+              <p\> <button onclick = "unlog(1)" class="parking-spot-button">Unlog Spot 1</button> </p>
+              <p\> <button onclick = "unlog(3)" class="parking-spot-button">Unlog Spot 3</button> </p>
+              <p\> <button onclick = "unlog(5)" class="parking-spot-button">Unlog Spot 5</button> </p>
+            </a>
+      </div>
+      <div class="parkingSpotColumn">
+          <a href="index.html">
+              <p\> <button onclick = "unlog(2)" class="parking-spot-button">Unlog Spot 2</button> </p>
+              <p\> <button onclick = "unlog(4)" class="parking-spot-button">Unlog Spot 4</button> </p>
+              <p\> <button onclick = "unlog(6)" class="parking-spot-button">Unlog Spot 6</button> </p>
+            </a>
+      </div>
+      <div class="parkingSpotColumn">
+          <img src="farley_map-min.png" alt="Farley Parking Map" width="500"
+          height="500">
+      </div>
+  </div>
   </body>
 </html>
