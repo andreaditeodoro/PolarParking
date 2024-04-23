@@ -12,6 +12,20 @@ body {
     height: 100vh;
  }
 
+ .centerAlignedBody {
+    background-color: lightsteelblue;
+    text-align: center;
+    font-family: "Trirong", serif;
+    font-size: 20px;
+    color: navy;
+    margin: 10 px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+
  .title {
   position: fixed;
   top: 35px;
@@ -98,20 +112,6 @@ body {
    margin-top: 0px;
    margin-bottom: 15px;
   }
-
-  .topnav:hover {
-    background-color: rgb(149, 179, 218);
-    text-align: right;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    color: navy;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    margin-top: 0px;
-    margin-bottom: 15px;
-   }
  
   .rightcol{
    color: #000080;
