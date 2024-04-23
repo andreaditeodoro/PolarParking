@@ -28,6 +28,7 @@ body {
 
  .title {
   position: fixed;
+  background-color: aliceblue;
   top: 35px;
   left: 8px;
  }
@@ -36,6 +37,7 @@ body {
   position: fixed;
   top: 55px;
   left: 475px;
+  background-color: aliceblue;
 }
 
 .logoOnLogPages {
