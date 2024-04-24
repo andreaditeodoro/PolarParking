@@ -6,7 +6,12 @@ function spot(spot) {
     }
     else {
         occupied.push(spot)
-        localStorage.setItem("Spot", spot)
+        if (spot%6 === 0) {
+          localStorage.setItem("Spot", 6)
+        }
+        else {
+          localStorage.setItem("Spot", spot%6)
+        }
     }
     localStorage.setItem('occupied', JSON.stringify(occupied));
 }
