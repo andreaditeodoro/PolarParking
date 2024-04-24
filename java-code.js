@@ -21,3 +21,7 @@ function unlog(spot) {
       localStorage.setItem('occupied', JSON.stringify(occupied))
     }
 }
+
+function setSetting(option) {
+  localStorage.setItem("option", option)
+}

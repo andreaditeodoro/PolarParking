@@ -8,50 +8,51 @@
     <link rel="icon" type="image/x-icon" href="images/favicon copy.ico">
   </head>
   <body>
-    <div id="settings-title">
-      <h1>Settings</h1>
+    <div>
+      <label><h1 class="centeralign">Settings</h1>
     </div>
-  <div id="settings-container">
-      <div class="settings-labels">
-          <label>Profile</label>
-          <div class="setting-dropdown-menu">
-          <select name="profile" class="setting-dropdown-menu">
-            <option value="student"> Student </option>
-            <option value="faculty"> Faculty </option>
-            <option value="visitor"> Visitor </option>
-          </select>
+    <div class="settings-container">
+        <div class="settings-labels">
+            <label>Profile</label>
+            <div class="setting-dropdown-menu">
+            <select name="profile" class="setting-dropdown-menu" onchange="setSetting(this.value)">
+              <option value="Select Role" onchange="setSetting(this.value)"> Select Role </option>
+              <option value="student" onchange="setSetting(this.value)"> Student </option>
+              <option value="faculty" onchange="setSetting(this.value)"> Faculty </option>
+              <option value="visitor" onchange="setSetting(this.value)"> Visitor </option>
+              <script>
+                document.getElementById(value).innerHTML = localStorage.getItem('Spot');
+              </script>
+            </select>
+          </div>
         </div>
-      </div>
-      <div class="settings-labels">
-        <label>Notification Preferences</label>
-          <div class="setting-dropdown-menu">
-          <select name="notification" class="setting-dropdown-menu">
-            <option value="on"> On </option>
-            <option value="off"> Off </option>
-          </select>
+        <div class="settings-labels">
+          <label>Notification Preferences</label>
+            <div class="setting-dropdown-menu">
+            <select name="notification" class="setting-dropdown-menu">
+              <option value="student" onchange="setSetting(this.value)"> Select Notification Settings </option>
+              <option value="on"> On </option>
+              <option value="off"> Off </option>
+            </select>
+          </div>
         </div>
-      </div>
-      <div class="settings-labels">
-        <label>Parking Preferences</label>
-          <div class="setting-dropdown-menu">
-          <select name="preferences" class="setting-dropdown-menu">
-            <option value="Farley"> Farley Field House Lot </option>
-            <option value="Coffin"> Coffin Street Parking Lot </option>
-            <option value="admissions"> Admissions Building Parking Lot </option>
-          </select>
-        </div>
-      </div>    
-  </div>
-  <nav class="topnav">
-    <div class="navtitle">
-      <h2>Polar Parking</h2>
+        <div class="settings-labels">
+          <label>Parking Preferences</label>
+            <div class="setting-dropdown-menu">
+            <select name="preferences" class="setting-dropdown-menu">
+              <option value="student" onchange="setSetting(this.value)"> Select Parking Lot </option>
+              <option value="Farley"> Farley Field House Lot </option>
+              <option value="Coffin"> Coffin Street Parking Lot </option>
+              <option value="admissions"> Admissions Building Parking Lot </option>
+            </select>
+          </div>
+        </div>    
     </div>
-    <div class="navlinks">
+    <nav class="topnav">
       <a class="active" href="index.html">Home</a>
-      <a class="active" href="navsettings.html">Settings</a>
-      <a class="active" href="report.html">Report</a>
-      <a class="active" href="navhelp.html">Help</a>
-    </div>
-</nav>
+      <a class="settings">Settings</a>
+      <a class="report">Report</a>
+      <a class="help">Help</a>
+    </nav>  
   </body>
   </html>
