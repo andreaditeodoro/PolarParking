@@ -67,6 +67,9 @@ function unlog(spot, lot) {
       admissions.splice(index, 1)
       localStorage.setItem('admissions', JSON.stringify(admissions))
     }
-  }
+}
+}
 
+function setSetting(option) {
+  localStorage.setItem("option", option)
 }

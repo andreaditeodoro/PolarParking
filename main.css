@@ -122,6 +122,7 @@ body {
    overflow: hidden;
    position: fixed;
    top: 0;
+   height: 85px;
    width: 100%;
    color: white;
    margin-top: 0px;
@@ -138,11 +139,11 @@ body {
   }
 
   .navlinks {
-    text-align: right;
+    float: right;
     color: white;
+    margin-top: 30px;
     padding-bottom: 15px;
     padding-top: 15px;
-    display: inline-block;
   }
  
   .rightcol{
@@ -223,6 +224,7 @@ body {
   align-items: right;
   justify-content: center;
   height: 100vh;
+  width: 33.33%;
 }
 .setting-option {
   margin: 10px;
@@ -251,23 +253,84 @@ body {
   text-align: left;
   margin-top: 20px;
 }
+
+.settingstitle{
+  text-align: center;
+  margin-top:200px;
+}
+
 .centeralign{
-  margin-top: 30px;
-  padding-top: 50px;
+  text-align: center;
 }
 
 .setting-dropdown-menu {
-  color: rgba(0, 0, 128, 0.733);
-  font-size: 24px;
-  padding: auto;
+  color: navy(0, 0, 128, 0.733);
+  font-size: 18px;
+  padding: 20px;
   text-align: left;
   border-color: rgba(0, 0, 128, 0.733);
   border-width: 2px;
+  font-family: "Trirong", serif;
 }
 
 .settings-labels {
-  color: rgba(0, 0, 128, 0.733);
+  color: navy(0, 0, 128, 0.733);
   font-size: 40px;
-  padding: auto;
+  padding: 20px;
   text-align: left;
+  background-size: 60px;
+  font-family: "Trirong", serif;
+  
 }
+
+.profileimage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.centertext {
+  text-align: center;
+  size: 60px;
+}
+
+.help-button {
+  background-color:rgba(0, 0, 128, 0.733);
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+  font-size: 24px;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 15%;
+  border-width: 5px;
+  border-color: grey;
+  font-family: "Trirong", serif;
+ }
+
+ .help-button:hover {
+  background-color:grey;
+  color: white;
+  padding: 40px 20px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 15%;
+  border-width: 5px;
+  border-color: grey;
+  font-family: "Trirong", serif;
+ }
+
+ .settings-descriptions {
+  color: rgba(0, 0, 128, 0.733);
+  font-size: 20px;
+  text-align: left;
+  background-size: 60px;
+  margin: 20px;
+  font-family: "Trirong", serif;
+ }
