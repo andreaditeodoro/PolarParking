@@ -34,6 +34,7 @@ body {
   position: fixed;
   top: 35px;
   left: 8px;
+  margin-top: 20px;
  }
 
  .logo {
@@ -261,6 +262,7 @@ body {
 
 .centeralign{
   text-align: center;
+  margin-top: 50px;
 }
 
 .setting-dropdown-menu {
