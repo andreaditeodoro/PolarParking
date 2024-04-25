@@ -252,24 +252,34 @@ body {
   text-align: left;
   margin-top: 20px;
 }
+
+.settingstitle{
+  text-align: center;
+  margin-top:200px;
+}
+
 .centeralign{
   text-align: center;
 }
 
 .setting-dropdown-menu {
-  color: rgba(0, 0, 128, 0.733);
-  font-size: 24px;
+  color: navy(0, 0, 128, 0.733);
+  font-size: 18px;
   padding: 20px;
-  text-align: center;
+  text-align: left;
   border-color: rgba(0, 0, 128, 0.733);
   border-width: 2px;
+  font-family: "Trirong", serif;
 }
 
 .settings-labels {
-  color: rgba(0, 0, 128, 0.733);
+  color: navy(0, 0, 128, 0.733);
   font-size: 40px;
   padding: 20px;
-  text-align: center;
+  text-align: left;
+  background-size: 60px;
+  font-family: "Trirong", serif;
+  
 }
 
 .profileimage {
@@ -297,5 +307,14 @@ body {
   border-radius: 15%;
   border-width: 5px;
   border-color: grey;
+  font-family: "Trirong", serif;
+ }
+
+ .settings-descriptions {
+  color: rgba(0, 0, 128, 0.733);
+  font-size: 20px;
+  text-align: left;
+  background-size: 60px;
+  margin: 20px;
   font-family: "Trirong", serif;
  }
