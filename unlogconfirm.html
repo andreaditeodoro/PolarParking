@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Polar Parking Log</title>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon copy.ico">
+  </head>
+  <body>
+    <div class="centerAlignedBody">
+    <p\><h1>You have successfully unlogged spot <p style= "font-size: xx-large;" id='spot'></p> </h1></p>
+    <a href="index.html">
+      <p\> <button class="button">Back to homepage</button> </p>
+  </a>
+  <script>
+    document.getElementById('spot').innerHTML = localStorage.getItem('Spot');
+  </script>
+  </div>
+  <nav class="topnav">
+    <div class="navlinks">
+      <a class="active" href="index.html">Home</a>
+      <a class="active" href="navsettings.html">Settings</a>
+      <a class="active" href="report.html">Report</a>
+      <a class="active" href="navhelp.html">Help</a>
+    </div>
+</nav>
+  </body>
+</html>

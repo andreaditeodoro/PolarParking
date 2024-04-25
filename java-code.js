@@ -41,6 +41,7 @@ function unlog(spot, lot) {
       localStorage.setItem("Spot", "Spot is already empty")
     }
     else {
+      localStorage.setItem("Spot", spot)
       const index = farley.indexOf(spot);
       farley.splice(index, 1)
       localStorage.setItem('farley', JSON.stringify(farley))
@@ -52,6 +53,7 @@ function unlog(spot, lot) {
       localStorage.setItem("Spot", "Spot is already empty")
     }
     else {
+      localStorage.setItem("Spot", spot)
       const index = coffin.indexOf(spot);
       coffin.splice(index, 1)
       localStorage.setItem('coffin', JSON.stringify(coffin))
@@ -63,6 +65,7 @@ function unlog(spot, lot) {
       localStorage.setItem("Spot", "Spot is already empty")
     }
     else {
+      localStorage.setItem("Spot", spot)
       const index = admissions.indexOf(spot);
       admissions.splice(index, 1)
       localStorage.setItem('admissions', JSON.stringify(admissions))
