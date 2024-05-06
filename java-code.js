@@ -74,5 +74,15 @@ function unlog(spot, lot) {
 }
 
 function setSetting(option) {
-  localStorage.setItem("option", option)
+  document.getElementById("profile").onchange = function() {
+    let newSelected = document.getElementById("profile").value;
+    localStorage.setItem('person', newSelected);
+    console.log("Changing local storage to: " + newSelected + "!");
+}
+
+if (localStorage.getItem('profile')) {
+    let menu = document.getElementById("profile");
+    menu.value = window.localStorage.getItem('profile');
+}
+
 }

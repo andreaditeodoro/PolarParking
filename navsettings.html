@@ -18,15 +18,24 @@
                 <p>Please choose the role that best describes you</p>
               </div>
               <div class="setting-dropdown-menu">
-              <select name="profile" class="setting-dropdown-menu" onchange="setSetting(this.value)">
-                <option value="Select Role" onchange="setSetting(this.value)"> Select Role </option>
-                <option value="student" onchange="setSetting(this.value)"> Student </option>
-                <option value="faculty" onchange="setSetting(this.value)"> Faculty </option>
-                <option value="visitor" onchange="setSetting(this.value)"> Visitor </option>
-                <script>
-                  document.getElementById(value).innerHTML = localStorage.getItem('Spot');
-                </script>
+              <label for= "profile">I am a:</label>
+              <select name="profile" id = "profile" class="setting-dropdown-menu" onchange="setSetting(this.value)">
+                <option value="student"> Student </option>
+                <option value="faculty"> Faculty </option>
+                <option value="visitor"> Visitor </option>
               </select>
+              <script>
+                      document.getElementById("profile").onchange = function() {
+                          let newSelected = document.getElementById("profile").value;
+                          localStorage.setItem('profile', newSelected);
+                          console.log("Changing local storage to: " + newSelected + "!");
+                      }
+                      
+                      if (localStorage.getItem('profile')) {
+                          let menu = document.getElementById("profile");
+                          menu.value = window.localStorage.getItem('profile');
+                      }
+              </script>
             </div>
           <div class="settings-labels">
             <label>Notification Preferences</label>
@@ -34,12 +43,24 @@
             <div class="settings-descriptions">
               <p>Please choose if you would like to receive notifications about open parking spots</p>
             </div>
-              <div class="setting-dropdown-menu">
-              <select name="notification" class="setting-dropdown-menu">
-                <option value="student" onchange="setSetting(this.value)"> Select Notification Settings </option>
+            <div class="setting-dropdown-menu">
+              <label for= "profile">I would like notifications:</label>
+              <select name="notifications" id = "notifications" class="setting-dropdown-menu" onchange="setSetting(this.value)">
                 <option value="on"> On </option>
                 <option value="off"> Off </option>
               </select>
+              <script>
+                      document.getElementById("notifications").onchange = function() {
+                          let newSelected = document.getElementById("notifications").value;
+                          localStorage.setItem('notifications', newSelected);
+                          console.log("Changing local storage to: " + newSelected + "!");
+                      }
+                      
+                      if (localStorage.getItem('notifications')) {
+                          let menu = document.getElementById("notifications");
+                          menu.value = window.localStorage.getItem('notifications');
+                      }
+              </script>
             </div>
           </div>
           <div class="settings-labels">
@@ -48,13 +69,25 @@
             <div class="settings-descriptions">
               <p>Please choose your preferred parking lot</p>
             </div>
-              <div class="setting-dropdown-menu">
-              <select name="preferences" class="setting-dropdown-menu">
-                <option value="student" onchange="setSetting(this.value)"> Select Parking Lot </option>
-                <option value="Farley"> Farley Field House Lot </option>
+            <div class="setting-dropdown-menu">
+              <label for= "preferences">My preferred parking lot is:</label>
+              <select name="preferences" id = "preferences" class="setting-dropdown-menu" onchange="setSetting(this.value)">
+                <option value="Farley"> Farley Field House Parking Lot </option>
                 <option value="Coffin"> Coffin Street Parking Lot </option>
-                <option value="admissions"> Admissions Building Parking Lot </option>
+                <option value="Admissions"> Admissions Building Parking Lot </option>
               </select>
+              <script>
+                      document.getElementById("preferences").onchange = function() {
+                          let newSelected = document.getElementById("preferences").value;
+                          localStorage.setItem('preferences', newSelected);
+                          console.log("Changing local storage to: " + newSelected + "!");
+                      }
+                      
+                      if (localStorage.getItem('preferences')) {
+                          let menu = document.getElementById("preferences");
+                          menu.value = window.localStorage.getItem('preferences');
+                      }
+              </script>
             </div>
       </div>    
     <nav class="topnav">
