@@ -9,7 +9,7 @@ function spot(spot, lot) {
     }
     else {
       farley.push(spot)
-      localStorage.setItem("Spot", spot)
+      localStorage.setItem("Spot", "You have selected spot: " + spot.toString())
     }
     localStorage.setItem('farley', JSON.stringify(farley))
   }
@@ -19,7 +19,7 @@ function spot(spot, lot) {
     }
     else {
       coffin.push(spot)
-      localStorage.setItem("Spot", spot)
+      localStorage.setItem("Spot", "You have selected spot: " + spot.toString())
     }
     localStorage.setItem('coffin', JSON.stringify(coffin))
   }
@@ -29,7 +29,7 @@ function spot(spot, lot) {
     }
     else {
       admissions.push(spot)
-      localStorage.setItem("Spot", spot)
+      localStorage.setItem("Spot", "You have selected spot: " + spot.toString())
     }
     localStorage.setItem('admissions', JSON.stringify(admissions))
   }
@@ -41,7 +41,7 @@ function unlog(spot, lot) {
       localStorage.setItem("Spot", "Spot is already empty")
     }
     else {
-      localStorage.setItem("Spot", spot)
+      localStorage.setItem("Spot", "You have successfully unlogged spot: " + spot.toString())
       const index = farley.indexOf(spot);
       farley.splice(index, 1)
       localStorage.setItem('farley', JSON.stringify(farley))
@@ -53,7 +53,7 @@ function unlog(spot, lot) {
       localStorage.setItem("Spot", "Spot is already empty")
     }
     else {
-      localStorage.setItem("Spot", spot)
+      localStorage.setItem("Spot", "You have successfully unlogged spot: " + spot.toString())
       const index = coffin.indexOf(spot);
       coffin.splice(index, 1)
       localStorage.setItem('coffin', JSON.stringify(coffin))
@@ -65,7 +65,7 @@ function unlog(spot, lot) {
       localStorage.setItem("Spot", "Spot is already empty")
     }
     else {
-      localStorage.setItem("Spot", spot)
+      localStorage.setItem("Spot", "You have successfully unlogged spot: " + spot.toString())
       const index = admissions.indexOf(spot);
       admissions.splice(index, 1)
       localStorage.setItem('admissions', JSON.stringify(admissions))
