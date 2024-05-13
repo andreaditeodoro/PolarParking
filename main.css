@@ -1,9 +1,9 @@
 body {
-    background-color: lightsteelblue;
+    background-color: rgb(255, 255, 255);
     text-align: left;
-    font-family: "Trirong", serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    color: navy;
+    color: rgb(0, 0, 0);
     margin: 10 px;
     padding: 50px;
     display: flex;
@@ -13,11 +13,11 @@ body {
  }
 
  .centerAlignedBody {
-    background-color: lightsteelblue;
+    background-color: rgb(255, 255, 255);
     text-align: center;
-    font-family: "Trirong", serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    color: navy;
+    color: rgb(0, 0, 0);
     margin: 10 px;
     padding: 50px;
     display: flex;
@@ -47,7 +47,7 @@ body {
  }
 
  .button {
-    background-color:rgba(0, 0, 128, 0.733);
+    background-color:rgba(0, 0, 0, 0.733);
     color:white;
     padding: 14px 28px;
     font-size: 16px;
@@ -57,7 +57,7 @@ body {
     display: inline-block;
     border-width: 5px;
     border-color: white;
-    font-family: "Trirong", serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
 
  .button:hover {
@@ -71,7 +71,7 @@ body {
   display: inline-block;
   border-width: 5px;
   border-color: white;
-  font-family: "Trirong", serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
  .no-button {
@@ -83,17 +83,16 @@ body {
    cursor: pointer;
    text-align: center;
    border-radius: 15%;
-   font-family: "Trirong", serif;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
 
  .index_Text {
    padding: 14px 28px;
-   font-size: 20px;
-   font-family: "Trirong", serif;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
  
   .parking-spot-button {
-   background-color:rgba(0, 0, 128, 0.733);
+   background-color:rgba(0, 0, 0, 0.733);
    color: white;
    padding: 40px 20px;
    font-size: 24px;
@@ -102,7 +101,7 @@ body {
    border-radius: 15%;
    border-width: 5px;
    border-color: grey;
-   font-family: "Trirong", serif;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parking-spot-button:hover {
@@ -115,11 +114,11 @@ body {
     border-radius: 15%;
     border-width: 5px;
     border-color: grey;
-    font-family: "Trirong", serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
    }
  
   .topnav {
-   background-color: navy;
+   background-color: rgb(0, 0, 0);
    overflow: hidden;
    position: fixed;
    top: 0;
@@ -148,7 +147,7 @@ body {
   }
  
   .rightcol{
-   color: #000080;
+   color: #000000;
    text-align: left;
    padding-top: 40px;
    margin-top: 40px;
@@ -270,9 +269,9 @@ body {
   font-size: 18px;
   padding: 20px;
   text-align: left;
-  border-color: rgba(0, 0, 128, 0.733);
+  border-color: rgba(0, 0, 0, 0.733);
   border-width: 2px;
-  font-family: "Trirong", serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .settings-labels {
@@ -281,7 +280,7 @@ body {
   padding: 20px;
   text-align: left;
   background-size: 60px;
-  font-family: "Trirong", serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   
 }
 
@@ -312,7 +311,7 @@ body {
   border-radius: 15%;
   border-width: 5px;
   border-color: grey;
-  font-family: "Trirong", serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
 
  .help-button:hover {
@@ -325,14 +324,14 @@ body {
   border-radius: 15%;
   border-width: 5px;
   border-color: grey;
-  font-family: "Trirong", serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
 
  .settings-descriptions {
-  color: rgba(0, 0, 128, 0.733);
+  color: rgba(0, 0, 0, 0.733);
   font-size: 20px;
   text-align: left;
   background-size: 60px;
   margin: 20px;
-  font-family: "Trirong", serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
