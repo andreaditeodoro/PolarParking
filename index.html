@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Polar Parking</title>
-
+    <script src ="java-code.js" type="text/javascript"></script>
     <link rel="stylesheet" href="main.css">
     <link rel="icon" type="image/x-icon" href="images/favicon copy.ico">
   </head>
@@ -29,20 +29,53 @@
       </div>
     <div class="row-md-5">
       <h2>Farley Field House and Watson Arena</h2>
+
+      <div id="fSpotsOpen"></div>
+      <script>    
+        function getNumSpotsFLot() {
+          var occupiedFSpots = farley.length;
+          var totalFSpots = 6 - occupiedFSpots;
+          document.getElementById('fSpotsOpen').innerText = 'Spots Open: ' + totalFSpots;
+        }
+        window.onload = getNumSpotsFLot;
+      </script>
+
       <p>Open to daytime visitors and student parking. Largest lot on campus, can be accessed by taking a right onto Watson Drive. Close access to athletic fields, Greason pool, tennis courts, Watson arena, and Harpswell apartments. </p>
       <a href="farley.html">
         <button class="button">Search For Parking</button>
     </a>
     </div>
     <div class="row-md-5">
-      <h2>Coffin Street Parking Lot</h2>
-      <p>Open to daytime visitors and student parking. Central location with close access to Smith Union and Ladd house.</p>
+      <h2>Coffin Street Parking Lot </h2> 
+
+      <div id="cSpotsOpen"></div>
+      <script>    
+        function getNumSpotsCLot() {
+          var occupiedCSpots = coffin.length;
+          var totalCSpots = 6 - occupiedCSpots;
+          document.getElementById('cSpotsOpen').innerText = 'Spots Open: ' + totalCSpots;
+        }
+        window.onload = getNumSpotsCLot;
+      </script>
+
+            <p>Open to daytime visitors and student parking. Central location with close access to Smith Union and Ladd house.</p>
       <a href="coffin.html">
         <button class="button">Search For Parking</button>
       </a>  
     </div>
     <div class="row-md-5">
       <h2>Admissions Lot, Burton-Little House</h2>
+
+      <div id="aSpotsOpen"></div>
+      <script>    
+        function getNumSpotsALot() {
+          var occupiedASpots = admissions.length;
+          var totalASpots = 6 - occupiedASpots;
+          document.getElementById('aSpotsOpen').innerText = 'Spots Open: ' + totalASpots;
+        }
+        window.onload = getNumSpotsALot;
+      </script>
+      
       <p>Open to admissions visitors and located off of Tower Drive. Central location near Hawthorne Longfellow library and Thorne hall.</p>
       <a href="admissions.html">
         <button class="button">Search For Parking</button>
