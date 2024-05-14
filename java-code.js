@@ -109,3 +109,4 @@ function getNumSpotsALot() {
   var totalASpots = 6 - occupiedASpots;
   document.getElementById('aSpotsOpen').innerText = 'Spots Open: ' + totalASpots;
 }
+

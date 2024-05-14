@@ -351,3 +351,10 @@ body {
 .info {
   margin-top: 10px;
 }
+
+.lotRulesBox {
+  margin-right: 15px;
+  margin-left: 10px;
+  border-color: #000000;
+  border-width: 5px;
+}
