@@ -1,7 +1,13 @@
 # PolarParking
 ## Pages
 ### Homepage
-The index.html page is our homepage. 
+The index.html page is our homepage. This is the same with all the other pages but there exists a navigation bar where the user can navigating to navsettings.html, report.html, navhelp.html, and back to the homescreen. On this homepage, along with the map, logo, tagline, and title, the user can begin the function of logging or unlogging a spot. 
+### Settings
+The navsettings.html page allows for a user to change their status. There consists three drop down options that change whether they're a student, faculty, or vistior, whether or not they want their notifications on, and which lot is their preferred parking lot. 
+### Report
+The report.html page is where a user can write a message and choose to send it in as a report to Bowdoin security or the developers of this website. Which one they choose depends on the type of problem. They will then be taken to the reportconfirm.html page and return to the homescreen. 
+### Help
+The navhelp.html page is ideally going to have guides for how to complete certain functions, the option to contact the developers, and see frequently asked questions. The user would also be able to search for specific help if they are unsure of which category their need falls under. 
 ### Logging a spot (farley.html, admissions.html, coffin.html)
 Farley, Admissions, and Coffin related pages are nearly identical. The only difference is that each page determines what category/parking lot our data will be saved in our local storage as. By opting to log a spot on the first page, it will take the user to the parking lot they have selected. Within the farley lot(farley.html), they will choose a number for their parking spot and it will be saved under the farley lot. 
 ### Confirmation (logconfirm.html)
