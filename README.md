@@ -1,5 +1,5 @@
 # PolarParking
-## Pages
+## Pages and Functions
 ### Homepage
 The index.html page is our homepage. This is the same with all the other pages but there exists a navigation bar where the user can navigating to navsettings.html, report.html, navhelp.html, and back to the homescreen. On this homepage, along with the map, logo, tagline, and title, the user can begin the function of logging or unlogging a spot. 
 ### Settings
@@ -17,7 +17,7 @@ Just like how each parking lot had their own page to log a spot, each lot has th
 ### Unlog confirmation (unlogconfirm.html)
 This page uses the same logic as the confirmation page to display a message based on which spot the user opted to unlog and/or whether or not it was empty already. 
 ## Java Code
-This file holds functions for logging and unlogging a spot, saving user settings, and creating a list to keep track of logged parking spots.
+The java-code.js file holds functions for logging and unlogging a spot, saving user settings, and creating a list to keep track of logged parking spots.
 ### spot 
 The spot function logs a spot based off the number the user has selected and the parking lot they are choosing from. The logic checks to see which lot the user is selecting from, and then goes on to check if the spot exists within the list of spots that are saved as logged. If the number exists within the list of occupied spots for that parking lot, the item "Spot" will be saved as a message indicating to the user that it is already occupied. If the spot is not already occupied, the message will be saved to show the user(on the next page) that they have successfully logged that spot. Additionally, the number will be added to the list of occupied spots for the designated lot. 
 ### unlog
