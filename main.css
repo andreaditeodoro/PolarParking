@@ -335,3 +335,19 @@ body {
   margin: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
+
+ .lotRulesBox {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  width: 300px;
+}
+.label {
+  background-color: #f0f0f0;
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+}
+.info {
+  margin-top: 10px;
+}
