@@ -192,6 +192,7 @@ body {
    float: left;
    width: 20%;
    padding: 5px;
+   margin-right: 10px;
  }
  .parkingSpotRow {
    content: "";
