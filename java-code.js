@@ -92,3 +92,20 @@ if (localStorage.getItem('profile')) {
 
 }
 
+function getNumSpotsCLot() {
+  var occupiedCSpots = coffin.length;
+  var totalCSpots = 6 - occupiedCSpots;
+  document.getElementById('cSpotsOpen').innerText = 'Spots Open: ' + totalCSpots;
+}
+
+function getNumSpotsFLot() {
+  var occupiedFSpots = farley.length;
+  var totalFSpots = 6 - occupiedFSpots;
+  document.getElementById('fSpotsOpen').innerText = 'Spots Open: ' + totalFSpots;
+}
+
+function getNumSpotsALot() {
+  var occupiedASpots = admissions.length;
+  var totalASpots = 6 - occupiedASpots;
+  document.getElementById('aSpotsOpen').innerText = 'Spots Open: ' + totalASpots;
+}
