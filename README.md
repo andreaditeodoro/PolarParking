@@ -1,3 +1,5 @@
+https://github.com/andreaditeodoro/PolarParking.git
+
 # Polar Parking
 The Polar Parking interface is designed to address issues surrounding parking on Bowdoin's campus, making the process easier and more efficient. The interface has two main functions that contribute to the overall goal of helping users effectively find parking, logging and unlogging a parking spot, as well as the ability to submit reports, alter system preferences in settings, and access a help page. We used these features because they encompass the basic needs of Bowdoin community members when it comes to navigating parking on campus. In the future, we hope to add more functionality to some of our interface pages,such as the help page. We also hope to improve upon our current system for logging and unlogging spots, such as indicating to the user where they are currently parked or making unavailable parking spots appear different from open spots on the log page itself. 
 ## Installment and Running the Interface
