@@ -1,4 +1,5 @@
 # PolarParking
+The Polar Parking interface is designed to address issues surrounding parking on Bowdoin's campus, making the process easier and more efficient. The interface has two main functions that contribute to the overall goal of helping users effectively find parking, logging and unlogging a parking spot, as well as the ability to submit reports, alter system preferences in settings, and access a help page. 
 ## Pages and Functions
 ### Homepage
 The index.html page is our homepage. This is the same with all the other pages but there exists a navigation bar where the user can navigating to navsettings.html, report.html, navhelp.html, and back to the homescreen. On this homepage, along with the map, logo, tagline, and title, the user can begin the function of logging or unlogging a spot. 
