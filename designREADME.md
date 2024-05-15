@@ -1,8 +1,8 @@
-
+# Polar Parking Design
 The Polar Parking interface is designed to address issues surrounding parking on Bowdoin's campus, making the process easier and more efficient. The interface has two main functions that contribute to the overall goal of helping users effectively find parking, logging and unlogging a parking spot, as well as the ability to submit reports, alter system preferences in settings, and access a help page. We used these features because they encompass the basic needs of Bowdoin community members when it comes to navigating parking on campus. In the future, we hope to add more functionality to some of our interface pages, such as the help page. We also hope to improve upon our current system for logging and unlogging spots, such as indicating to the user where they are currently parked or making unavailable parking spots appear different from open spots on the log page itself.
-
+## Accuracy and System Status
 The Polar Parking interface includes an "On-campus Parking Locations" section, where the user can choose from one of three parking lots on campus: Farley, Coffin St, and Admissions. There are lot descriptions for each lot, as well as an accurate count of the number of spots available. We wanted to include this so that the user could always access accurate and reliable information about parking so that our interface could function to the best of its ability. We also included parking lot rules in our final interaction of the design to really drive home system status and to ensure that our users would always be as informed as possible. The status of current parking lots at Bowdoin is imperative to the usefulness of our design and was something we valued highly throughout the design process.
-
+## User Feedback
 One major component we wanted to include in our design was confirmation pages, as we value system status and user feedback in our designs. Through the design process, we added more messages to the user that updated them with the system status, such as confirming spot logging and reports as well as informing them if they are trying to log an occupied spot. 
-
+## Web Design
 We made cosmetic design changes after our user testing based on feedback from our peers. We put more thought into layout, color scheme, and text used in our interface so that it was more satisfying for users. We used a sleek black and white color scheme and column organization to achieve this. Overall, we wanted our design to be efficient, friendly, and organized to ensure the best user experience.
